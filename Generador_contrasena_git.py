@@ -2,7 +2,7 @@ import random
 
 
 def generar_contrasena():
-    pais = ["Colombia", "Argentina", "Peru"]
+    pais = ["Colombia", "Argentina", "Peru", "Venezuela"]
     mayusculas = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
      'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
       'U', 'V', 'X', 'Y', 'Z']
@@ -27,7 +27,7 @@ def generar_contrasena():
 
 def run():
     contrasena = generar_contrasena()
-    print("la nueva contraseña para ti es: " + contrasena) 
+    print("la nueva contraseña para ti es la siguiente: " + contrasena) 
 
 if __name__ == "__main__":
     run()
