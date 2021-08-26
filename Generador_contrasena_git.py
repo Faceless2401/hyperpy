@@ -14,6 +14,7 @@ def generar_contrasena():
       '&', '$', '#', '"']
     numeros = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
 
+
     caracteres = pais + simbolos + numeros
 
     contrasena = []
@@ -27,7 +28,7 @@ def generar_contrasena():
 
 def run():
     contrasena = generar_contrasena()
-    print("la nueva contraseña para ti es la siguiente: " + contrasena) 
+    print("la nueva contraseña para ti primera rama es la siguiente: " + contrasena) 
 
 if __name__ == "__main__":
     run()
