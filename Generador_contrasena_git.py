@@ -2,7 +2,7 @@ import random
 
 
 def generar_contrasena():
-    Pais = ["Colombia", "Argentina", "Peru"]
+    pais = ["Colombia", "Argentina", "Peru"]
     mayusculas = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
      'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T',
       'U', 'V', 'X', 'Y', 'Z']
