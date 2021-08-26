@@ -14,11 +14,11 @@ def generar_contrasena():
       '&', '$', '#', '"']
     numeros = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
 
-    caracteres = pais + mayusculas + minusculas + simbolos + numeros
+    caracteres = pais + simbolos + numeros
 
     contrasena = []
 
-    for i in range(15):
+    for i in range(5):
         caracter_random = random.choice(caracteres)
         contrasena.append(caracter_random)
 
@@ -27,7 +27,7 @@ def generar_contrasena():
 
 def run():
     contrasena = generar_contrasena()
-    print("la nueva contraseña es: " + contrasena) 
+    print("la nueva contraseña para ti es: " + contrasena) 
 
 if __name__ == "__main__":
     run()
