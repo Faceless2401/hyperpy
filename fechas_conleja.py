@@ -19,7 +19,7 @@ Escoge una fecha: """
 opcion = int(input(menu))
 
 if opcion == 1:
-    fechas("Nuestro viaje a Guatavita y una de las mejores expereciencias", "Cada momento a tu lado fue relmente especial incluso nuestra resolución de conflictos jaja")
+    fechas("Nuestro viaje a Guatavita y una de las mejores expereciencias", "Cada momento a tu lado fue realmente especial incluso nuestra resolución de conflictos jaja")
 elif opcion == 2:
     fechas("Celebración de nuestro segundo aniversario", "Uno de los momentos más importantes en mi vida, lograr una relacion tan fuerte a tu lado")
 elif opcion == 3:
